@@ -12,3 +12,8 @@ all in, just press 'save'. If you want to save your
 quiz and you clicked the 'save quiz' button, copy
 the quiz code. If you want to play your quiz, you
 will need a copy of QuizEngine in the root directory.
+You can get Quiz Engine here:
+https://github.com/AndreyNesterenko2020/QuizEngine.
+This is just a user interactable app, so saying
+'documentation' about this user manual would just
+be kinda weird, but whatever.
