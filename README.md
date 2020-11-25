@@ -11,4 +11,4 @@ a lot of text fields. Once you have filled them
 all in, just press 'save'. If you want to save your
 quiz and you clicked the 'save quiz' button, copy
 the quiz code. If you want to play your quiz, you
-will need a copy of QuizRender in the root directory.
+will need a copy of QuizEngine in the root directory.
