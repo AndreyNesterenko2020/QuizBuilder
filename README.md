@@ -17,3 +17,6 @@ https://github.com/AndreyNesterenko2020/QuizEngine.
 This is just a user interactable app, so saying
 'documentation' about this user manual would just
 be kinda weird, but whatever.
+Also - the times on Github releases are not exact.
+If you want to see the time of release, check when
+the file QuizBuilder_v1.x.x.html was last modified.
