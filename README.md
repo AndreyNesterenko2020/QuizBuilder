@@ -11,7 +11,7 @@ a lot of text fields. Once you have filled them
 all in, just press 'save'. If you want to save your
 quiz and you clicked the 'save quiz' button, copy
 the quiz code. If you want to play your quiz, you
-will need a copy of QuizEngine in the root directory.
+will need a copy of QuizEngine v1.1.0 in the root directory.
 You can get Quiz Engine here:
 https://github.com/AndreyNesterenko2020/QuizEngine.
 This is just a user interactable app, so saying
@@ -19,4 +19,4 @@ This is just a user interactable app, so saying
 be kinda weird, but whatever.
 Also - the times on Github releases are not exact.
 If you want to see the time of release, check when
-the file QuizBuilder_v1.x.x.html was last modified.
+the file quizBuilder_v1.x.x.html was last modified.
