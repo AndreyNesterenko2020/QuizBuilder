@@ -39,7 +39,7 @@
         board.innerHTML = '<h1>Quiz builder</h1><div id="questionsList"><button onclick="addQuestion();">Add question</button></div><button onclick="saveQuiz();">Save quiz</button><a id="link" href="" target="_blank"><button>Play quiz</button></a>';
       }
       function addQuestion(){
-        document.getElementById('link').href = 'quiz_v1.0.0.html?'+btoa(JSON.stringify(window.testData));
+        document.getElementById('link').href = 'quiz_v1.1.0.html?'+btoa(JSON.stringify(window.testData));
         list = document.getElementById('questionsList');
         window.testData.questions++;
         window.testData.question.push({name: 'name',answer:['set answer','set answer','set answer','set answer','set answer','set answer'],correctAnswer:undefined});
@@ -79,7 +79,7 @@
         window.testData.question[window.currentQuestionEdit-1].answer[5] = answer6;
         window.testData.question[window.currentQuestionEdit-1].correctAnswer = correctAnswer;
         document.getElementById('popup').outerHTML = '';
-        document.getElementById('link').href = 'quiz_v1.0.0.html?'+btoa(JSON.stringify(window.testData));
+        document.getElementById('link').href = 'quiz_v1.1.0.html?'+btoa(JSON.stringify(window.testData));
       }
       function saveQuiz(){
         var popup = document.createElement('div');
@@ -92,7 +92,7 @@
         popup.id = 'savepopup';
         document.body.appendChild(popup);
         code = btoa(JSON.stringify(window.testData));
-        popup.innerHTML = '<h2>Copy this quiz code!</h2><br><p>'+code+'</p><br><button onclick="document.getElementById(`savepopup`).outerHTML = ``;">Ok</button>';
+        popup.innerHTML = '<h2>Copy this quiz code!</h2><br><input id="copy">'+code+'</p><br><button onclick="document.getElementById(`savepopup`).outerHTML = ``;">Ok</button><button onclick="var text = document.getElementById(`copy`); text.select(); text.setSelectionRange(0,99999); document.execCommand(`copy`);">Copy</button>';
       }
       onload = function(){
           init();
