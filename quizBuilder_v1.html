@@ -92,7 +92,8 @@
         popup.id = 'savepopup';
         document.body.appendChild(popup);
         code = btoa(JSON.stringify(window.testData));
-        popup.innerHTML = '<h2>Copy this quiz code!</h2><br><input id="copy">"'+code+'"</input><br><button onclick="document.getElementById(`savepopup`).outerHTML = ``;">Ok</button><button onclick="var text = document.getElementById(`copy`); text.select(); text.setSelectionRange(0,99999); document.execCommand(`copy`);">Copy</button>';
+        popup.innerHTML = '<h2>Copy this quiz code!</h2><br><input id="copy"></input><br><button onclick="document.getElementById(`savepopup`).outerHTML = ``;">Ok</button><button onclick="var text = document.getElementById(`copy`); text.select(); text.setSelectionRange(0,99999); document.execCommand(`copy`);">Copy</button>';
+        document.getElementByid('copy').value = code;
       }
       onload = function(){
           init();
