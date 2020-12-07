@@ -19,4 +19,4 @@ This is just a user interactable app, so saying
 be kinda weird, but whatever.
 Also - the times on Github releases are not exact.
 If you want to see the time of release, check when
-the file quizBuilder_v1.html was last modified.
+the file quizBuilder_v1.x.html was last modified.
